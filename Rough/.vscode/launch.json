@@ -1,0 +1,114 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Math",
+            "request": "launch",
+            "mainClass": "Math",
+            "projectName": "JavaProgram_a885b83f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MazeProblem",
+            "request": "launch",
+            "mainClass": "MazeProblem",
+            "projectName": "JavaProgram_a885b83f"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "args": "",
+            "console": "internalConsole",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "console": "internalConsole",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch BitWise",
+            "request": "launch",
+            "mainClass": "BitWise",
+            "projectName": "JavaProgram_a885b83f"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstBank",
+            "request": "launch",
+            "mainClass": "FirstBank",
+            "projectName": "JavaProgram_a885b83f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "JavaProgram_a885b83f"
+        },
+        {
+            "type": "java",
+            "name": "Launch MergeSort",
+            "request": "launch",
+            "mainClass": "MergeSort",
+            "projectName": "JavaProgram_a885b83f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Print",
+            "request": "launch",
+            "mainClass": "Print",
+            "projectName": "JavaProgram_a885b83f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rec",
+            "request": "launch",
+            "mainClass": "Rec",
+            "projectName": "JavaProgram_a885b83f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rec2",
+            "request": "launch",
+            "mainClass": "Rec2",
+            "projectName": "JavaProgram_a885b83f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rec3",
+            "request": "launch",
+            "mainClass": "Rec3",
+            "projectName": "JavaProgram_a885b83f"
+        },
+        {
+            "type": "java",
+            "name": "Launch SSWH",
+            "request": "launch",
+            "mainClass": "SSWH",
+            "projectName": "JavaProgram_a885b83f"
+        },
+        {
+            "type": "java",
+            "name": "Launch Samsung",
+            "request": "launch",
+            "mainClass": "Samsung",
+            "projectName": "JavaProgram_a885b83f"
+        },
+        {
+            "type": "java",
+            "name": "Launch subrec",
+            "request": "launch",
+            "mainClass": "subrec",
+            "projectName": "JavaProgram_a885b83f"
+        }
+    ]
+}
