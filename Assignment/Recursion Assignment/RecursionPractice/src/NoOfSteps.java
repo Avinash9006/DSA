@@ -20,7 +20,7 @@ Step 6) 1 is odd; subtract 1 and obtain 0.
 class NoOfSteps {
     public static void main(String[] args) {
         int n = 14;
-        System.out.println(steps(8));
+        System.out.println(steps(n));
     }
 
     static int steps(int n) {
