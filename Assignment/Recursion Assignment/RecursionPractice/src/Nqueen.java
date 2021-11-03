@@ -1,3 +1,5 @@
+import java.lang.Math;
+
 class Nqueen {
 
     public static void main(String[] args) {
