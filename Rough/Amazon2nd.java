@@ -28,17 +28,19 @@ public class Amazon2nd {
         int result = 0;
         int total = N % K == 0 ? (N / K) - 1 : (N / K);
         for (int i = 1; i <= K; i++) {
-            for (int j = 1; j < total; j++) {
-                int current = A[j * K + (i - 1)];
-                int previous = A[(j - 1) * K + (i - 1)];
-                int olderprevious = (j - 2) * K + (i - 1) >= 0 ? A[(j - 2) * K + (i - 1)] : -1;
-                if (j * K + (i - 1) < N && previous > current) {
-                    A[(j - 1) * K + (i - 1)] = olderprevious;
-                    if (current < olderprevious && olderprevious != -1) {
-                        A[j * K + (i - 1)] = olderprevious;
+            for (int j = 1; j <= total; j++) {
+                if (j * K + (i - 1) < N) {
+                    int current = A[j * K + (i - 1)];
+                    int previous = A[(j - 1) * K + (i - 1)];
+                    int olderprevious = (j - 2) * K + (i - 1) >= 0 ? A[(j - 2) * K + (i - 1)] : -1;
+                    if (previous > current) {
+                        A[(j - 1) * K + (i - 1)] = olderprevious;
+                        if (current < olderprevious && olderprevious != -1) {
+                            A[j * K + (i - 1)] = olderprevious;
+                            result++;
+                        }
                         result++;
                     }
-                    result++;
                 }
             }
         }
