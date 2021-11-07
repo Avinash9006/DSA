@@ -1,7 +1,7 @@
 
 import java.util.Arrays;
 
-class Math {
+class Math1 {
 
     public static void main(String[] args) {
         
