@@ -1,5 +1,4 @@
 import java.io.*;
-import java.util.Arrays;
 
 public class Amazon2nd {
     public static void main(String[] args) throws IOException {
@@ -32,13 +31,13 @@ public class Amazon2nd {
                 if (j * K + (i - 1) < N) {
                     int current = A[j * K + (i - 1)];
                     int previous = A[(j - 1) * K + (i - 1)];
-                    int olderprevious = (j - 2) * K + (i - 1) >= 0 ? A[(j - 2) * K + (i - 1)] : -1;
+                    // int olderprevious = (j - 2) * K + (i - 1) >= 0 ? A[(j - 2) * K + (i - 1)] : -1;
                     if (previous > current) {
-                        A[(j - 1) * K + (i - 1)] = olderprevious;
-                        if (current < olderprevious && olderprevious != -1) {
-                            A[j * K + (i - 1)] = olderprevious;
-                            result++;
-                        }
+                        // A[(j - 1) * K + (i - 1)] = olderprevious;
+                        // if (current < olderprevious && olderprevious != -1) {
+                        //     A[j * K + (i - 1)] = olderprevious;
+                        //     result++;
+                        // }
                         result++;
                     }
                 }
