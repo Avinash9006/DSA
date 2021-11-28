@@ -1,9 +1,9 @@
 class MazeProblem {
 
     public static void main(String[] args) {
-        int[][] maze = { { 1, 1, 1 }, { 1, 0, 0 }, { 1, 1, 1 } };
+        int[][] maze = { { 1, 1, 1 }, { 1, 0, 0 }, { 1, 0, 1 } };
         // System.out.println(countPaths(maze, 3, 3));
-        printPaths(maze, 3, 3, "");
+        // printPaths(maze, 3, 3, "");
         System.out.println();
         printPathsWithObstacles(maze, 3, 3, "");
 
