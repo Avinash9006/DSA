@@ -9,7 +9,7 @@ class ReverseLinkedList {
     }
 
     void add(int i) {
-        Node t = new Node(i);
+        // Node t = new Node(i);
         if (head == null) {
 
         }
